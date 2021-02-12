@@ -14,9 +14,11 @@ Ce projet a pour objectif de réaliser un système permettant de dévérrouiller
 
 ## Matériel utilisé
 
-**Carte Arduino :** Arduino Leonardo
+**Carte Arduino :** Arduino Mega
 
-**Ecran LCD :** Grove LCD RGB
+**Ecran LCD 1:** Grove LCD RGB
+
+**Ecran LCD 2:** LCD 16x2
 
 **Joystick :** Joystick GT1079
 
@@ -29,6 +31,8 @@ Ce projet a pour objectif de réaliser un système permettant de dévérrouiller
 ## Librairies utilisées
 
 
+
+`LiquidCrystal by Arduino & Adafruit`--> Version **1.0.7**
 
 `Keypad by Mark Stanley & Alexander Brevig`-->  Version **3.1.1**
 
