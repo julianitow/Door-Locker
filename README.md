@@ -38,3 +38,13 @@ Ce projet a pour objectif de réaliser un système permettant de dévérrouiller
 
 
 
+## Déroulement du projet
+
+Dans l'ensemble, le projet s'est correctement déroulé, nous avons rapidement réussi à faire fonctionner chaque élément indépendamment, les soucis ont débuté lorsqu'il a fallu tout rassembler et faire fonctionner l'ensemble. L'utilisation du KeyPad et du Joystick en simultané n'a pas posé de soucis , mais lorsque l'on y rajoutait l'écran , impossible de faire fonctionner le programme. 
+
+Après avoir pensé à un soucis de compatibilité entre l'écran et un autre élément , nous avons remplacé l'écran , sans succès. Nous avons revu le code pour essayer d'y trouver le soucois , sans succès non plus. 
+
+Finalement , le soucis à été résolu en remplaçant l'Arduino Leonardo prévue au départ, par une Arduino Mega. Nous pensons donc que le soucis venait d'une surchage de la pile , ou bien de conflit entre certains port de l'Arduino Leonardo.
+
+
+
